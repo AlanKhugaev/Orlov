@@ -19,10 +19,13 @@ header{
     background-image: url(../images/orlov.png);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: 50% 50%;
+    margin-bottom: 150px;
 }
 
 .container{
     margin: 0 auto;
+    margin-bottom: 150px;
     max-width: 1180px;
     padding: 0 15px;
     
@@ -38,9 +41,6 @@ header{
     text-align: center;
 }
 .logo__text{
-    
-    
-    
     color: #1BFF07;
     font-family: IBM Plex Mono;
     font-size: 42.414px;
@@ -49,14 +49,16 @@ header{
     
 }
 .nav-menu{
-    
-    
+     
 }
 .nav-menu__link{
     float: right;
     margin-left: 50px;
-    
-    
+}
+
+.nav-menu__link a:hover{
+    color: #1BFF07;
+    transition: all 0.5s;
 }
 
 .nav-menu__link a{
@@ -90,4 +92,114 @@ h1{
     font-size: 80px;
     line-height: 70px; /* 87.5% */
     letter-spacing: -2.4px;
+}
+
+/****** Самые свежие проекты ******/
+
+h2{
+    font-size: 55px;
+    line-height: 72px;
+    letter-spacing: -1.65px;
+}
+
+h3{
+    font-size: 35px;
+    line-height: 46px;
+    letter-spacing: -1.05px;
+}
+
+.projects__title{
+    margin-bottom: 40px;
+}
+
+.projects__project{
+    position: relative;
+}
+
+.projects__project:nth-last-child(1){
+    margin-bottom: 80px;
+}
+
+.project__img{
+    
+    border-radius: 40px;
+}
+
+.project__title{
+    position: absolute;
+    left: 50px;
+    bottom: 94px;
+}
+
+.project__text{
+    position: absolute;
+    left: 50px;
+    bottom: 50px;
+    font-size: 30px;
+    line-height: 39px;
+    letter-spacing: -0.9px;
+}
+
+.projects__btn{
+    width: 582px;
+    height: 153px;
+    border: 1px solid;
+    border-radius: 10px;
+    color: #000;
+    text-align: center;
+    font-family: IBM Plex Mono;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 39px;
+    letter-spacing: -0.9px;
+    background: #1BFF07;
+
+}
+
+.projects__btn:hover{
+    color: #1BFF07;
+    background-color: #000;
+    transition: all 0.2s;
+}
+
+/****** Мои компетенции ******/
+
+.competencies__title{
+    margin-bottom: 104px;
+}
+
+.competencies__competence{
+    position: relative;
+    width: 778px;
+    margin-bottom: 120px;
+}
+.competencies__competence::before{
+    position: absolute;
+    content: "";
+    display: block;
+    width: 24px;
+    height: 24px;
+    top: -37px;
+    left: -4px;
+    background-image: url(../images/html.png);
+}
+.competencies__competence:nth-last-child(1){
+    margin-bottom: 0;
+}
+.competence__title{
+    color: #1BFF07;
+    margin-bottom: 15px;
+    
+}
+
+.competencie__tiext{
+    font-size: 22px;
+    line-height: 29px;
+    letter-spacing: -0.66px;
+}
+
+/****** services ******/
+
+.services__title{
+    width: 403px;
 }
