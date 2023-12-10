@@ -5,7 +5,6 @@ html{
 body{
     margin: 0 auto;
     width: 1400px;
-    height: 7653px;
     background-color: #000;
     color: #fff;
     font-family: 'IBM Plex Mono';
@@ -122,7 +121,7 @@ h3{
 
 .project__img{
     
-    border-radius: 40px;
+    border-radius: 35px;
 }
 
 .project__title{
@@ -165,24 +164,17 @@ h3{
 /****** Мои компетенции ******/
 
 .competencies__title{
-    margin-bottom: 104px;
+    margin-bottom: 48px;
 }
-
+.competence__img{
+    margin-bottom: 16px;
+}
 .competencies__competence{
     position: relative;
     width: 778px;
-    margin-bottom: 120px;
+    margin-bottom: 60px;
 }
-.competencies__competence::before{
-    position: absolute;
-    content: "";
-    display: block;
-    width: 24px;
-    height: 24px;
-    top: -37px;
-    left: -4px;
-    background-image: url(../images/html.png);
-}
+
 .competencies__competence:nth-last-child(1){
     margin-bottom: 0;
 }
@@ -192,7 +184,7 @@ h3{
     
 }
 
-.competencie__tiext{
+.competencie__text{
     font-size: 22px;
     line-height: 29px;
     letter-spacing: -0.66px;
@@ -202,4 +194,19 @@ h3{
 
 .services__title{
     width: 403px;
+    margin-bottom: 74px;
+}
+.service__box{
+    border-radius: 30px;
+    padding: 40px;
+    background: #191C19;
+}
+.service__title{
+    margin-bottom: 15px;
+}
+.service__text{
+    width: 749px;
+}
+.service__img{
+    margin-bottom: -3px;
 }
