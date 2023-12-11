@@ -4,7 +4,6 @@ html{
 
 body{
     margin: 0 auto;
-    width: 1400px;
     background-color: #000;
     color: #fff;
     font-family: 'IBM Plex Mono';
@@ -12,6 +11,7 @@ body{
 }
 
 header{
+    margin: 0 auto;
     position: relative;
     width: 1400px;
     height: 765px;
@@ -27,29 +27,26 @@ header{
     margin-bottom: 150px;
     max-width: 1180px;
     padding: 0 15px;
-    
 }
+
 .header__logo{
     display: flex;
     width: 130px;
     height: 42px;
-    
     background-color: #000;
     border-radius: 100px;
     justify-content: center;
     text-align: center;
 }
+
 .logo__text{
     color: #1BFF07;
     font-family: IBM Plex Mono;
     font-size: 42.414px;
     font-weight: 700;
     letter-spacing: -4.666px;
-    
 }
-.nav-menu{
-     
-}
+
 .nav-menu__link{
     float: right;
     margin-left: 50px;
@@ -75,21 +72,24 @@ header{
     align-items: center;
     justify-content: space-between;
 }
+
 .header__description{
     position: absolute;
     width: 430px;
     bottom: 328px;
     font-size: 20px;
-    line-height: normal;
+    line-height: 26px;
     letter-spacing: -0.6px;
 }
+
 h1{
     position: absolute;
     width: 919px;
+    left: 119px;
     bottom: 94px;
     color: #1BFF07;
     font-size: 80px;
-    line-height: 70px; /* 87.5% */
+    line-height: 70px;
     letter-spacing: -2.4px;
 }
 
@@ -120,7 +120,6 @@ h3{
 }
 
 .project__img{
-    
     border-radius: 35px;
 }
 
@@ -152,7 +151,6 @@ h3{
     line-height: 39px;
     letter-spacing: -0.9px;
     background: #1BFF07;
-
 }
 
 .projects__btn:hover{
@@ -166,9 +164,11 @@ h3{
 .competencies__title{
     margin-bottom: 48px;
 }
+
 .competence__img{
     margin-bottom: 16px;
 }
+
 .competencies__competence{
     position: relative;
     width: 778px;
@@ -178,10 +178,10 @@ h3{
 .competencies__competence:nth-last-child(1){
     margin-bottom: 0;
 }
+
 .competence__title{
     color: #1BFF07;
     margin-bottom: 15px;
-    
 }
 
 .competencie__text{
@@ -196,17 +196,112 @@ h3{
     width: 403px;
     margin-bottom: 74px;
 }
+
+.services__service{
+    margin-bottom: 74px;
+}
+
 .service__box{
     border-radius: 30px;
     padding: 40px;
     background: #191C19;
 }
+
 .service__title{
     margin-bottom: 15px;
 }
+
 .service__text{
     width: 749px;
 }
+
 .service__img{
     margin-bottom: -3px;
+}
+
+/****** contacts ******/
+
+.contacts{
+    position: relative;
+    width: 100%;
+    height: 717px;
+    background: #191C19;
+    background-image: url(../images/programmer.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    border-radius: 30px;
+    margin-bottom: 150px;
+}
+
+.container:nth-last-child(1){
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contacts__box{
+    position: absolute;
+    width: 50%;
+    left: 125px;
+    bottom: 69px;
+}
+
+h4{
+    margin-bottom: 28px;
+}
+
+.contacts__box a{
+    color: #FFF;
+    font-family: IBM Plex Mono;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: -1.8px;
+    text-decoration: none;
+}
+
+.contacts__box a:hover{
+    color: #1BFF07;
+    transition: all 0.2s;
+}
+
+.contacts__box li{
+    margin-bottom: 20px;
+}
+
+.contacts__img{
+    width: 50%;
+}
+
+/****** footer ******/
+
+.footer{
+    position: relative;
+    display: flex;
+    height: 289px;
+    border-radius: 30px 30px 0 0;
+    background-color: #FFF;
+}
+
+.footer__title{
+    position: absolute;
+    top: 76px;
+    left: 125px;
+    color: #000;
+    font-family: Manrope;
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: -0.66px;
+}
+
+.footer__text{
+    position: absolute;
+    top: 172px;
+    left: 125px;
+    color: #000;
+    font-family: Manrope;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: -0.6px;
+    opacity: 0.5;
 }
