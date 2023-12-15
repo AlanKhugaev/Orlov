@@ -47,8 +47,12 @@ header{
     letter-spacing: -4.666px;
 }
 
+.nav-menu ul{
+    display: flex;
+}
+
 .nav-menu__link{
-    float: right;
+    
     margin-left: 50px;
 }
 
@@ -68,6 +72,7 @@ header{
 
 .header__menu{
     display: flex; 
+    width: 100%;
     padding-top: 36px;
     align-items: center;
     justify-content: space-between;
